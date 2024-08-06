@@ -72,10 +72,10 @@ define(['managerAPI',
             header: 'Welcome'
         }],
 
-        raceiat_instructions: [{
+       weightiat_instructions: [{
             inherit: 'instructions',
-            name: 'raceiat_instructions',
-            templateUrl: 'raceiat_instructions.jst',
+            name: 'weightiat_instructions',
+            templateUrl: 'weightiat_instructions.jst',
             title: 'IAT Instructions',
             header: 'Implicit Association Test'
         }],
@@ -88,8 +88,8 @@ define(['managerAPI',
 
         raceiat: [{
             type: 'time',
-            name: 'raceiat',
-            scriptUrl: 'raceiat.js'
+            name: 'weightiat',
+            scriptUrl: 'weightiat.js'
         }],
 
         lastpage: [{
